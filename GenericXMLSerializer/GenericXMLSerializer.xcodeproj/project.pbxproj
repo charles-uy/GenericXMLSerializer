@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567142241418B09D00146E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567142231418B09D00146E27 /* Foundation.framework */; };
+		5671422A1418B09D00146E27 /* GenericXMLSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 567142291418B09D00146E27 /* GenericXMLSerializer.m */; };
+		567142321418B09D00146E27 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567142311418B09D00146E27 /* SenTestingKit.framework */; };
+		567142341418B09D00146E27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567142331418B09D00146E27 /* UIKit.framework */; };
+		567142351418B09D00146E27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567142231418B09D00146E27 /* Foundation.framework */; };
+		567142381418B09D00146E27 /* libGenericXMLSerializer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 567142201418B09D00146E27 /* libGenericXMLSerializer.a */; };
+		5671423E1418B09D00146E27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5671423C1418B09D00146E27 /* InfoPlist.strings */; };
+		567142411418B09D00146E27 /* GenericXMLSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 567142401418B09D00146E27 /* GenericXMLSerializerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		567142361418B09D00146E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 567142171418B09D00146E27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5671421F1418B09D00146E27;
+			remoteInfo = GenericXMLSerializer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		567142201418B09D00146E27 /* libGenericXMLSerializer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGenericXMLSerializer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		567142231418B09D00146E27 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		567142271418B09D00146E27 /* GenericXMLSerializer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GenericXMLSerializer-Prefix.pch"; sourceTree = "<group>"; };
+		567142281418B09D00146E27 /* GenericXMLSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericXMLSerializer.h; sourceTree = "<group>"; };
+		567142291418B09D00146E27 /* GenericXMLSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericXMLSerializer.m; sourceTree = "<group>"; };
+		567142301418B09D00146E27 /* GenericXMLSerializerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericXMLSerializerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		567142311418B09D00146E27 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		567142331418B09D00146E27 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5671423B1418B09D00146E27 /* GenericXMLSerializerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GenericXMLSerializerTests-Info.plist"; sourceTree = "<group>"; };
+		5671423D1418B09D00146E27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5671423F1418B09D00146E27 /* GenericXMLSerializerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericXMLSerializerTests.h; sourceTree = "<group>"; };
+		567142401418B09D00146E27 /* GenericXMLSerializerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenericXMLSerializerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5671421D1418B09D00146E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567142241418B09D00146E27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5671422C1418B09D00146E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567142321418B09D00146E27 /* SenTestingKit.framework in Frameworks */,
+				567142341418B09D00146E27 /* UIKit.framework in Frameworks */,
+				567142351418B09D00146E27 /* Foundation.framework in Frameworks */,
+				567142381418B09D00146E27 /* libGenericXMLSerializer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567142151418B09D00146E27 = {
+			isa = PBXGroup;
+			children = (
+				567142251418B09D00146E27 /* GenericXMLSerializer */,
+				567142391418B09D00146E27 /* GenericXMLSerializerTests */,
+				567142221418B09D00146E27 /* Frameworks */,
+				567142211418B09D00146E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		567142211418B09D00146E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567142201418B09D00146E27 /* libGenericXMLSerializer.a */,
+				567142301418B09D00146E27 /* GenericXMLSerializerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567142221418B09D00146E27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				567142231418B09D00146E27 /* Foundation.framework */,
+				567142311418B09D00146E27 /* SenTestingKit.framework */,
+				567142331418B09D00146E27 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		567142251418B09D00146E27 /* GenericXMLSerializer */ = {
+			isa = PBXGroup;
+			children = (
+				567142281418B09D00146E27 /* GenericXMLSerializer.h */,
+				567142291418B09D00146E27 /* GenericXMLSerializer.m */,
+				567142261418B09D00146E27 /* Supporting Files */,
+			);
+			path = GenericXMLSerializer;
+			sourceTree = "<group>";
+		};
+		567142261418B09D00146E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567142271418B09D00146E27 /* GenericXMLSerializer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		567142391418B09D00146E27 /* GenericXMLSerializerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5671423F1418B09D00146E27 /* GenericXMLSerializerTests.h */,
+				567142401418B09D00146E27 /* GenericXMLSerializerTests.m */,
+				5671423A1418B09D00146E27 /* Supporting Files */,
+			);
+			path = GenericXMLSerializerTests;
+			sourceTree = "<group>";
+		};
+		5671423A1418B09D00146E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5671423B1418B09D00146E27 /* GenericXMLSerializerTests-Info.plist */,
+				5671423C1418B09D00146E27 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5671421E1418B09D00146E27 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5671421F1418B09D00146E27 /* GenericXMLSerializer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567142441418B09D00146E27 /* Build configuration list for PBXNativeTarget "GenericXMLSerializer" */;
+			buildPhases = (
+				5671421C1418B09D00146E27 /* Sources */,
+				5671421D1418B09D00146E27 /* Frameworks */,
+				5671421E1418B09D00146E27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenericXMLSerializer;
+			productName = GenericXMLSerializer;
+			productReference = 567142201418B09D00146E27 /* libGenericXMLSerializer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5671422F1418B09D00146E27 /* GenericXMLSerializerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567142471418B09D00146E27 /* Build configuration list for PBXNativeTarget "GenericXMLSerializerTests" */;
+			buildPhases = (
+				5671422B1418B09D00146E27 /* Sources */,
+				5671422C1418B09D00146E27 /* Frameworks */,
+				5671422D1418B09D00146E27 /* Resources */,
+				5671422E1418B09D00146E27 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				567142371418B09D00146E27 /* PBXTargetDependency */,
+			);
+			name = GenericXMLSerializerTests;
+			productName = GenericXMLSerializerTests;
+			productReference = 567142301418B09D00146E27 /* GenericXMLSerializerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567142171418B09D00146E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = G2iX;
+			};
+			buildConfigurationList = 5671421A1418B09D00146E27 /* Build configuration list for PBXProject "GenericXMLSerializer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 567142151418B09D00146E27;
+			productRefGroup = 567142211418B09D00146E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5671421F1418B09D00146E27 /* GenericXMLSerializer */,
+				5671422F1418B09D00146E27 /* GenericXMLSerializerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5671422D1418B09D00146E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5671423E1418B09D00146E27 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5671422E1418B09D00146E27 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5671421C1418B09D00146E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5671422A1418B09D00146E27 /* GenericXMLSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5671422B1418B09D00146E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567142411418B09D00146E27 /* GenericXMLSerializerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		567142371418B09D00146E27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5671421F1418B09D00146E27 /* GenericXMLSerializer */;
+			targetProxy = 567142361418B09D00146E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5671423C1418B09D00146E27 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5671423D1418B09D00146E27 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		567142421418B09D00146E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		567142431418B09D00146E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567142451418B09D00146E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GenericXMLSerializer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericXMLSerializer/GenericXMLSerializer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		567142461418B09D00146E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GenericXMLSerializer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericXMLSerializer/GenericXMLSerializer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		567142481418B09D00146E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericXMLSerializer/GenericXMLSerializer-Prefix.pch";
+				INFOPLIST_FILE = "GenericXMLSerializerTests/GenericXMLSerializerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		567142491418B09D00146E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GenericXMLSerializer/GenericXMLSerializer-Prefix.pch";
+				INFOPLIST_FILE = "GenericXMLSerializerTests/GenericXMLSerializerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5671421A1418B09D00146E27 /* Build configuration list for PBXProject "GenericXMLSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567142421418B09D00146E27 /* Debug */,
+				567142431418B09D00146E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567142441418B09D00146E27 /* Build configuration list for PBXNativeTarget "GenericXMLSerializer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567142451418B09D00146E27 /* Debug */,
+				567142461418B09D00146E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567142471418B09D00146E27 /* Build configuration list for PBXNativeTarget "GenericXMLSerializerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567142481418B09D00146E27 /* Debug */,
+				567142491418B09D00146E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 567142171418B09D00146E27 /* Project object */;
+}
