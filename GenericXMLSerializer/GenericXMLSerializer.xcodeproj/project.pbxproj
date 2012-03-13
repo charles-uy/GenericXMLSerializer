@@ -186,7 +186,7 @@
 		567142171418B09D00146E27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = G2iX;
 			};
 			buildConfigurationList = 5671421A1418B09D00146E27 /* Build configuration list for PBXProject "GenericXMLSerializer" */;
